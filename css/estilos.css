@@ -1,0 +1,1371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cookie';
+    text-align: justify;
+}
+
+.principal .navegacion {
+    display: flex;
+    background-color: rgb(75, 134, 182);
+}
+
+.principal .navegacion ul {
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.principal .navegacion ul li {
+    display: inline-block;
+}
+
+.principal .navegacion ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: fantasy;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: rgb(230, 211, 103);
+}
+
+.principal {
+    background-color: rgb(106, 167, 218);
+}
+
+.principal .logo div img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50px;
+    flex: 1;
+}
+
+.principal .logo {
+    background-size: 100%;
+    width: 100%;
+    display: flex;
+    padding: 70px;
+}
+
+.principal .logo .titulo {
+    flex: 2;
+    font-size: 55px;
+    padding: 80px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+main {
+    background-color: rgb(142, 196, 233);
+    display: flex;
+}
+
+.palafito .primero{
+    padding: 50px;
+    display: flex;
+}
+
+.palafito .primero .imagen{
+    height: 220px;
+    width: 220px;
+    display: flex;
+    float: left; 
+    padding-right: 150px;
+}
+
+.palafito .primero .imagen img {
+    border-radius: 20px;
+}
+
+.palafito .primero .texto{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.palafito .primero .texto p {
+    margin-left: 150px;
+    font-size: 20px;
+    padding-left: 200px;  
+}
+
+.palafito .historia h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+}
+
+.palafito .historia{
+    width: 100%;
+}
+
+.palafito .segundo {
+    padding: 50px;
+    display: flex;
+}
+
+.palafito .segundo .img{
+    height: 120px;
+    width: 200px;
+    display: flex;
+    float: left; 
+    padding-right: 150px;
+}
+
+.palafito .segundo .img img{
+    border-radius: 20px;
+}
+
+.palafito .segundo .clave p {
+    margin-left: 150px;
+    font-size: 20px;
+    padding-left: 200px;
+}
+
+.palafito .vista {
+    width: 100%;
+}
+
+.palafito .vista{
+    font-size: 28px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+}
+
+.palafito .tercero .mesa {
+    height: 270px;
+    width: 250px;
+    display: flex;
+    float: left; 
+    padding-right: 150px;
+}
+
+.palafito .tercero .mesa{
+    padding-left: 60px;
+}
+.palafito .tercero .mesa img{
+    border-radius: 20px;
+}
+
+.palafito .tercero .bosque p{
+    margin-left: 150px;
+    font-size: 20px;
+    padding-left: 150px;
+}
+
+.palafito .tercero{
+    padding: 50px;
+    display: flex;
+}
+
+.palafito .cuarto {
+    width: 100%;
+}
+
+.palafito .sol{
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+}
+
+.palafito .cuarto{
+    padding: 50px;
+    display: flex;
+}
+
+.palafito .cuarto .nube {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    float: left; 
+    padding-right: 150px;
+}
+
+.palafito .cuarto .nube img{
+    border-radius: 20px;
+}
+
+.palafito .cuarto .luz p{
+    margin-left: 150px;
+    font-size: 20px;
+    padding-left: 200px;
+}
+
+footer{
+    background: cadetblue;
+}
+
+.zulia {
+    width: 100%;
+}
+
+.zulia div h3{
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.encabezado .comida{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+}
+
+.encabezado .comida .dia img{
+    border-radius: 20px;
+}
+
+.encabezado .comida .lila p{
+    font-size: 20px;
+}
+
+.encabezado .comida .lila{
+    padding-left: 100px;
+}
+
+.encabezado .hoja{
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.encabezado .celula{
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-left: 130px;
+    padding-top: 20px;
+}
+
+.encabezado .pez .silla img{
+    border-radius: 20px;
+}
+
+.encabezado .pez .planta p{
+    font-size: 20px;
+    margin-left: 140px;
+}
+
+.encabezado .pez{
+    display: flex;
+    padding: 50px;
+}
+
+.encabezado .luna{
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.encabezado .cabeza{
+    display: flex;
+    padding: 50px;
+}
+
+.encabezado .cabeza .estrella img{
+    border-radius: 50px;
+}
+
+.encabezado .cabeza .cielo p{
+    font-size: 20px;
+    margin-left: 140px;
+}
+
+.lago .mar{
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.lago .mirada{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    margin-left: 20px
+}
+
+.lago .mirada .clase{
+    padding-left: 30px;
+}
+
+.lago .mirada .clase img{
+    border-radius: 50px;
+}
+
+.lago .mirada .parrafo{
+    padding-left: 100px;
+}
+
+.lago .mirada .parrafo p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.lago .muestra {
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-left: 140px;
+    padding-top: 20px;
+}
+
+.lago .tecla{
+    display: flex;
+    padding: 50px;
+}
+
+.lago .tecla .pantalla{
+    padding-left: 50px;
+}
+
+.lago .tecla .pantalla img{
+    border-radius: 50px;
+}
+
+.lago .tecla .tina{
+    padding-left: 100px;
+}
+
+.lago .tecla .tina p{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.lago .casco{
+    font-size: 28px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.lago .quinto{
+    display: flex;
+    padding: 50px;
+}
+
+.lago .quinto .puesto{
+    padding-left: 40px;
+}
+
+.lago .quinto .puesto img{
+    border-radius: 50px;
+}
+
+.lago .quinto .casa{
+    padding-left: 100px;
+}
+
+.lago .quinto .casa p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.lago .sombra{
+    font-size: 22px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.lago .unico{
+    display: flex;
+    padding: 50px;
+}
+
+.lago .unico .madera{
+    padding-left: 50px;
+}
+
+.lago .unico .madera img{
+    border-radius: 50px;
+}
+
+.lago .unico .universo{
+    padding-left: 100px;
+}
+
+.lago .unico .universo p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.lago .bus{
+    font-size: 22px;
+    padding-bottom: 20px;
+    padding-left: 75px;
+    padding-top: 20px;
+}
+
+.lago .relampago{
+    display: flex;
+    padding: 50px;
+}
+
+.lago .relampago .union{
+    padding-left: 60px;
+}
+
+.lago .relampago .union img{
+    border-radius: 50px;
+}
+
+.lago .relampago .venezuela{
+    padding-left: 100px;
+}
+
+.lago .relampago .venezuela p{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.lago .seleccion{
+    font-size: 22px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.lago .turismo{
+    display: flex;
+    padding: 50px;
+}
+
+.lago .turismo .aula{
+    padding-left: 70px;
+}
+
+.lago .turismo .aula img{
+    border-radius: 50px;
+}
+
+.lago .turismo .medio{
+    padding-left: 100px;
+}
+
+.lago .turismo .medio p{
+    font-size: 20px;
+    margin-left: 34px;
+}
+
+.gaita .maraca{
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-left: 130px;
+    padding-top: 20px;
+}
+
+.gaita .moderna{
+    display: flex;
+    padding: 50px;
+}
+
+.gaita .moderna .movil{
+    padding-left: 30px;
+}
+
+.gaita .moderna .movil img{
+    border-radius: 50px;
+}
+
+.gaita .moderna .merida{
+    padding-left: 100px;
+}
+
+.gaita .moderna .merida p{
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.gaita .falcon{
+    font-size: 27px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.gaita .show{
+    display: flex;
+    padding: 50px;
+}
+
+.gaita .show .hola{
+    padding-left: 10px;
+}
+
+.gaita .show .hola img{
+    border-radius: 50px;
+}
+
+.gaita .show .calle{
+    padding-left: 100px;
+}
+
+.gaita .show .calle p{
+    font-size: 20px;
+    margin-left: 1px;
+}
+
+.gaita .maracucho{
+    font-size: 27px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.gaita .instrumento{
+    display: flex;
+    padding: 50px;
+}
+
+.gaita .instrumento .lara{
+    padding-left: 60px;
+}
+
+.gaita .instrumento .lara img{
+    border-radius: 50px;
+}
+
+.gaita .instrumento .pajaro{
+    padding-left: 100px;
+}
+
+.gaita .instrumento .pajaro p{
+    font-size: 20px;
+    margin-left: 35px;
+}
+
+.sexto .rayo{
+    font-size: 27px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-top: 20px; 
+}
+
+.sexto .mecha{
+    display: flex;
+    padding: 50px;
+}
+
+.sexto .mecha .linea{
+    padding-left: 10px;
+}
+
+.sexto .mecha .linea img{
+    border-radius: 50px;
+}
+
+.sexto .mecha .mano{
+    padding-left: 30px;
+}
+
+.sexto .mecha .mano p{
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.sexto .barrir{
+    font-size: 27px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+
+.sexto .cara {
+    display: flex;
+    padding: 50px;
+}
+
+.sexto .cara .meson{
+    padding-left: 10px;
+}
+
+.sexto .cara .meson img{
+    border-radius: 50px;
+}
+
+.sexto .cara .video{
+    padding-left: 20px;
+}
+
+.sexto .cara .video p{
+    font-size: 20px;
+    margin-left: 55px;
+}
+
+.sexto .lampara{
+    font-size: 27px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.sexto .septimo{
+    display: flex;
+    padding: 50px;
+}
+
+.sexto .septimo .bombillo img{
+    border-radius: 50px;
+}
+
+.sexto .septimo .peluche p{
+    font-size: 20px;
+    margin-left: 55px;
+}
+
+.sexto .musica{
+    font-size: 27px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.sexto .puente{
+    display: flex;
+    padding: 50px;
+}
+
+.sexto .puente .bloqueo{
+    padding-left: 30px;
+}
+
+.sexto .puente .bloqueo img{
+    border-radius: 50px;
+}
+
+.sexto .puente .melon{
+    padding-left: 30px;
+}
+
+.sexto .puente .melon p{
+    font-size: 20px;
+    margin-left: 55px;
+}
+
+.honor .sentido{
+    font-size: 27px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.honor .octavo{
+    display: flex;
+    padding: 50px;
+}
+
+.honor .octavo .paso{
+    padding-left: 70px;
+}
+
+.honor .octavo .paso img{
+    border-radius: 50px;
+}
+
+.honor .octavo .brazo p{
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.honor .masa{
+    display: flex;
+    padding: 50px;
+}
+
+.honor .masa .santo{
+    padding-left: 70px;
+}
+
+.honor .masa .santo img{
+    border-radius: 50px;
+}
+
+.honor .masa .oferta{
+    padding-left: 10px;
+}
+
+.honor .masa .oferta p{
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.honor .gato{
+    font-size: 27px;
+    padding-bottom: 20px;
+    padding-left: 130px;
+    padding-top: 20px;
+}
+
+.honor .noveno{
+    display: flex;
+    padding: 50px;
+}
+
+.honor .noveno .raton{
+    padding-left: 10px;
+} 
+
+.honor .noveno .raton img{
+    border-radius: 50px;
+}
+
+.honor .noveno .maquina{
+    padding-left: 1px;
+}
+
+.honor .noveno .maquina p{
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.honor .lado{
+    font-size: 27px;
+    padding-bottom: 20px;
+    padding-left: 130px;
+    padding-top: 20px;
+}
+
+.honor .decimo{
+    display: flex;
+    padding: 50px;
+}
+
+.honor .decimo .reloj{
+    padding-left: 30px;
+}
+.honor .decimo .reloj img{
+    border-radius: 50px;
+} 
+
+.honor .decimo .hora{
+    padding-left: 10px;
+}
+
+.honor .decimo .hora p{
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.honor .fuerza{
+    font-size: 27px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.honor .devocion{
+    display: flex;
+    padding: 50px;
+}
+
+.honor .devocion .intento{
+    padding-left: 70px;
+}
+
+.honor .devocion .intento img{
+    border-radius: 50px;
+}
+
+.honor .devocion .error{
+    padding-left: 20px;
+}
+
+.honor .devocion .error p{
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.honor .carro{
+    font-size: 27px;
+    padding-bottom: 20px;
+    padding-left: 170px;
+    padding-top: 20px;
+}
+
+.honor .feria{
+    display: flex;
+    padding: 50px;
+}
+
+.honor .feria .dedo{
+    padding-left: 2px;
+}
+
+.honor .feria .dedo img{
+    border-radius: 50px;
+}
+
+.honor .feria .ojos{
+    padding-left: 2px;
+}
+
+.honor .feria .ojos p{
+    font-size: 20px;
+    margin-left: 55px;
+}
+
+.honor .reina {
+    display: flex;
+    padding: 50px;
+}
+
+.honor .reina .corazon{
+    padding-left: 60px;
+}
+
+.honor .reina .corazon img{
+    border-radius: 50px;
+}
+
+.honor .reina .poco{
+    padding-left: 70px;
+}
+
+.honor .reina .poco p{
+    font-size: 20px;
+    margin-left: 55px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .principal .logo {
+        background-size: 100%;
+        width: 100%;
+        display: flex;
+        padding: 70px;
+        flex-wrap: wrap;
+        min-width: 350px;
+
+    }
+
+    .palafito .primero{
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .palafito .primero .texto {
+        margin-top: 20px;
+        font-size: 20px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .palafito .primero .texto p {
+        margin-top: 20px;
+        font-size: 20px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .palafito .segundo {
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .palafito .segundo .clave p {
+        margin-left: 0px;
+        font-size: 20px;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    .palafito .tercero{
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .palafito .tercero .bosque p{
+        margin-left: 0px;
+        font-size: 20px;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    .palafito .cuarto{
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 350px;
+        margin-left: 0px;
+        font-size: 20px;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+    
+    .palafito .cuarto .nube {
+        height: 200px;
+        width: 200px;
+        display: flex;
+        float: left; 
+        padding-right: 150px;
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+
+    .palafito .cuarto{
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 350px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .palafito .cuarto .luz p{
+        margin-left: 150px;
+        font-size: 20px;
+        padding-left: 200px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .palafito .cuarto .nube {
+        height: 200px;
+        width: 200px;
+        display: flex;
+        float: left; 
+        padding-right: 150px;
+        padding-top: 50px;
+    }
+
+    .palafito .cuarto .luz p{
+        margin-left: 0px;
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .palafito .cuarto .luz{
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .encabezado .comida{
+        display: flex;
+        width: 100%;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .encabezado .comida .lila{
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+
+    .encabezado .comida .lila p{
+        font-size: 20px;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    
+    .encabezado .pez{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .encabezado .pez .planta p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .encabezado .cabeza .cielo p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .encabezado .cabeza{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .lago .mirada{
+        display: flex;
+        width: 100%;
+        padding: 50px;
+        margin-left: 20px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .lago .mirada .parrafo p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .lago .mirada .parrafo{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .lago .tecla{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .lago .tecla .tina{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .lago .tecla .tina p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .lago .quinto{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }    
+
+    .lago .quinto .casa{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .lago .quinto .casa p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .lago .unico{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .lago .unico .universo{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .lago .unico .universo p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .lago .relampago{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .lago .relampago .venezuela{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+   
+    .lago .relampago .venezuela p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .lago .turismo{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .lago .turismo .medio{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .lago .unico .universo p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .gaita .moderna{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .gaita .moderna .merida{
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .gaita .show{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .gaita .show .calle{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .gaita .show .calle p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .gaita .instrumento{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .gaita .instrumento .pajaro{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .gaita .instrumento .pajaro p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .sexto .mecha{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .sexto .mecha .mano{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .sexto .mecha .mano p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .sexto .cara {
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .sexto .cara .video{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .sexto .cara .video p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .sexto .septimo{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .sexto .septimo .peluche{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .sexto .septimo .peluche p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .sexto .puente{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .sexto .puente .melon{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .sexto .puente .melon p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .honor .octavo{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .honor .octavo .brazo{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .honor .octavo .brazo p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .honor .masa{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .honor .masa .oferta{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .honor .masa .oferta p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .honor .noveno{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .honor .noveno .maquina{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .honor .noveno .maquina p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .honor .decimo{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+    
+    .honor .decimo .hora{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    
+    .honor .decimo .hora p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .honor .devocion{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .honor .devocion .error{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .honor .devocion .error p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .honor .feria{
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .honor .feria .ojos{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .honor .feria .ojos p{
+        font-size: 20px;
+        margin-left: 0px;
+        margin-left: 0px;
+        margin-left: 30px;
+    }
+
+    .honor .reina {
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap;
+        min-width: 350px;
+    }
+
+    .honor .reina .poco{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .honor .reina .poco p{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+}
